@@ -18,6 +18,8 @@
   <link rel="stylesheet" type="text/css" href="static/css/tiny-slider.css">
   <!-- Tailwind css -->
   <link rel="stylesheet" type="text/css" href="static/css/tailwind.css">
+  <!-- scrollbar -->
+  <link rel="stylesheet" type="text/css" href="static/css/scroll.css">
   <script src="https://cdn.tailwindcss.com"></script>
 
   <script src="https://kit.fontawesome.com/4374417e55.js" crossorigin="anonymous"></script>
@@ -67,11 +69,13 @@
   <!-- Header Area wrapper End -->
 
   <!-- Hero Area Start -->
-  <section id="hero-area" class="bg-blue-100 pt-[35vh] pb-[35vh]">
+  <section id="hero-area" class="bg-blue-100 bg-[url('static/img/wayang.png')] bg-cover bg-center bg-blend-overlay h-[100vh] flex items-center">
+    <!-- https://www.google.com/search?q=wayang+vector+adobe+stock&sca_esv=a0ce93ff23945b86&udm=2&biw=1366&bih=679&sxsrf=ADLYWIKgrooaItAJO4wm18FHWfMd6dNKFA%3A1716430209579&ei=gaVOZub8IuicseMPyvWywA4&ved=0ahUKEwimwbHn2KKGAxVoTmwGHcq6DOgQ4dUDCBA&uact=5&oq=wayang+vector+adobe+stock&gs_lp=Egxnd3Mtd2l6LXNlcnAiGXdheWFuZyB2ZWN0b3IgYWRvYmUgc3RvY2tI1x5QgQZYrBxwAXgAkAEAmAFUoAG0BqoBAjEyuAEDyAEA-AEBmAIDoAK7AcICBBAjGCfCAgUQABiABMICChAAGIAEGEMYigXCAgYQABgHGB7CAgQQABgewgIGEAAYCBgemAMAiAYBkgcBM6AHrgo&sclient=gws-wiz-serp#vhid=s50APszZsrjMwM&vssid=mosaic -->
+    <!-- https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fwayang-kulit&psig=AOvVaw0U0oYll1OCTjHsW-Smyt_k&ust=1716516615791000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCU-MbZooYDFQAAAAAdAAAAABAK -->
     <div class="container">
       <div class="flex justify-between">
         <div class="w-full text-center">
-          <h2 class="text-[40px] font-bold leading-snug text-gray-700 mb-10 wow fadeInUp" data-wow-delay="1s">Maulana A.L <br> Fullstack Web Developer
+          <h2 class="text-[40px] font-bold leading-snug text-gray-700 mb-10 wow fadeInUp" data-wow-delay="1s">Maulana Adyuta <br> Fullstack Web Developer
           </h2>
           <div class="text-center mb-16 wow fadeInUp" data-wow-delay="1.2s">
             <a href="static/cv/CV_TsaqifMaulana.pdf" rel="nofollow" class="btn" target="_blank" download="maulana-cv.pdf">Download CV</a>
@@ -79,7 +83,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>  
   <!-- Hero Area End -->
   <section class="py-20">
     <div class="container">
@@ -89,18 +93,18 @@
       <div class="sm:flex block">
         <div class="container w-[80vw] mt-[6vh]">
           <p class="sm:mb-5 mb-[6vh] text-base">
-            Hello👋, I'm <b>Tsaqif Maulana</b>, a man who loves to learn new things. Welcome to my personal website, where you can find my portfolio, projects, and more.
+            Hello👋, I'm <b>Maulana Adyuta</b>, a man who loves to learn new things. Welcome to my personal website, where you can find my portfolio, projects, and more.
           </p>
           <p class="sm:mb-5 mb-[6vh] text-base">
-            As a <b>self-taught developer</b>, I started learning web development when I was in 9th grade and have been gradually improving my skills over time. I'm also very interested in machine learning and artificial intelligence.
+            As a <b>vocational school graduate</b>, I started learning web development when I was in 9th grade and have been gradually improving my skills over time. I'm also very interested in cyber security.
           </p>
           <p class="sm:mb-5 mb-[6vh] text-base">
-            I am passionate about <b>Backend Development</b> and enjoy working on the web server side. I love combining my technical knowledge and logic to build systematic websites and applications.
+            I am passionate about <b>Web Development</b> and enjoy working on the web client and server side. I love combining my technical knowledge and logic to build systematic websites and applications.
           </p>
         </div>
         <div class="sm:ml-[6vw] sm:mr-[4vw] w-fit mx-auto sm:mt-0 mt-[8vh]">
           <img src="static/img/fotogweh.png" alt="My Picture" class="sm:w-[35vw] w-[50vw]">
-          <p class="mt-4">Tsaqif Maulana - Owner Of This Website</p>
+          <p class="mt-4">Maulana A.L</p>
         </div>
       </div>
     </div>
@@ -121,9 +125,8 @@
               <i class="lni lni-cog"></i>
             </div>
             <div>
-              <h3 class="service-title">Backend Development</h3>
-              <p class="text-gray-600">Experienced in using Express.js and Laravel as a backend software development,
-                and SQL as database system implementation.</p>
+              <h3 class="service-title">Web Development</h3>
+              <p class="text-gray-600">Experienced in using Vanilla or React as frontend and Laravel as a backend software development, and SQL as database system implementation.</p>
             </div>
           </div>
         </div>
@@ -135,8 +138,7 @@
             </div>
             <div>
               <h3 class="service-title">ML Engineer</h3>
-              <p class="text-gray-600">Experienced in processing and analyzing data using various Python libraries, such
-                as Pandas, Matplotlib, Seaborn, Sklearn, etc.</p>
+              <p class="text-gray-600">Experienced in processing and analyzing data using various Python libraries, such as Pandas, Matplotlib, Seaborn, Sklearn, etc.</p>
             </div>
           </div>
         </div>
@@ -147,8 +149,8 @@
               <i class="lni lni-briefcase"></i>
             </div>
             <div>
-              <h3 class="service-title">Mobile Development</h3>
-              <p class="text-gray-600">Experienced in mobile software development using the flutter(dart) framework.</p>
+              <h3 class="service-title">Manual QA Engineer</h3>
+              <p class="text-gray-600">experienced in manual testing, thorough in finding bugs and researching application performance</p>
             </div>
           </div>
         </div>
@@ -162,48 +164,37 @@
       <div class="flex flex-wrap items-center">
         <div class="w-full lg:w-1/2">
           <div class="mb-5 lg:mb-0">
-            <h2 class="mb-12 section-heading" data-wow-delay="0.3s">Project Experience</h2>
+            <h2 class="mb-12 section-heading" data-wow-delay="0.3s">Work and Project Experience</h2>
             <div class="flex flex-wrap">
-              <div class="w-full sm:w-1/2 lg:w-1/2">
+              <div class="w-full">
                 <div class="m-3">
-                  <div class="icon text-4xl">
-                    <i class="lni lni-layers"></i>
-                  </div>
                   <div class="features-content">
-                    <h4 class="feature-title">Absensi With Face Recognition</h4>
-                    <p> Automatic student attendance website with face recognition technology, built using laravel and
-                      facerecognition.js</p>
+                    <h4 class="feature-title">PT. Monster Data Asia</h4>
+                    <p>Aug 2023 - Feb 2024 (6 Months)</p>
+                    <p>Web Developer and Presentation</p>
                   </div>
                 </div>
               </div>
-              <div class="w-full sm:w-1/2 lg:w-1/2">
+              <div class="w-full">
                 <div class="m-3">
-                  <div class="icon text-4xl">
-                    <i class="lni lni-gift"></i>
-                  </div>
                   <div class="features-content">
-                    <h4 class="feature-title">BK Services</h4>
-                    <p> Website about school counseling services, created using laravel (web) and flutter (mobile)</p>
+                    <h4 class="feature-title">Personal Portfolio Builder</h4>
+                    <p>Dec 2023 - Jan 2024 (1 Month)</p>
+                    <p>Building <a href="http://yudho-laksono.vercel.app" target="_blank" class="underline">Personal</a> Portfolio Project</p>
                   </div>
                 </div>
               </div>
-              <div class="w-full sm:w-1/2 lg:w-1/2">
+              <div class="w-full">
                 <div class="m-3">
-                  <div class="icon text-4xl">
-                    <i class="lni lni-laptop-phone"></i>
-                  </div>
                   <div class="features-content">
-                    <h4 class="feature-title">Dataset Visualization</h4>
-                    <p> A personal project about visualizing social media follower data for perfume brands in Indonesia.
+                    <h4 class="feature-title">Pertamina Gas Negara Company Profile</h4>
+                    <p>I work as a frontend developer on this project, this project was given from Monster Data Asia
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="w-full sm:w-1/2 lg:w-1/2">
+              <div class="w-full">
                 <div class="m-3">
-                  <div class="icon text-4xl">
-                    <i class="lni lni-leaf"></i>
-                  </div>
                   <div class="features-content">
                     <h4 class="feature-title">And Many More</h4>
                     <p> Visit my <a href="https://github.com/tsaqifmaulana444" class="underline">github</a> for looking
@@ -331,7 +322,7 @@
   <section id="contact" class="py-24 bg-blue-100">
     <div class="container">
       <div class="text-center">
-        <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide" data-wow-delay="0.3s">Get In Touch</h2>
+        <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide" data-wow-delay="0.3s">Contact Me For Web Creation, Negotiable Price</h2>
       </div>
 
       <div class="flex flex-wrap contact-form-area wow fadeInUp" data-wow-delay="0.4s">
@@ -358,7 +349,7 @@
                   <i class="fa-brands fa-github"></i>
                 </div>
                 <p class="pl-3">
-                  <a href="#" class="block">tsaqifmaulana444</a>
+                  <a href="https://github.com/tsaqifmaulana444" target="_blank" class="block">tsaqifmaulana444</a>
                 </p>
               </div>
               <div class="flex flex-wrap mb-6 items-center">
@@ -366,7 +357,7 @@
                   <i class="fa-brands fa-instagram"></i>
                 </div>
                 <p class="pl-3">
-                  <a href="#" class="block">tsaqif.ma4</a>
+                  <a href="https://www.instagram.com/tsaqif.ma4/" target="_blank" class="block">tsaqif.ma4</a>
                 </p>
               </div>
               <div class="flex flex-wrap mb-6 items-center">
@@ -374,7 +365,7 @@
                   <i class="fa-brands fa-linkedin"></i>
                 </div>
                 <p class="pl-3">
-                  <a href="#" class="block">Tsaqif Maulana A.L</a>
+                  <a href="https://www.linkedin.com/in/tsaqif-maulana-a-l-538906244/" target="_blank" class="block">Tsaqif Maulana A.L</a>
                 </p>
               </div>
             </div>
